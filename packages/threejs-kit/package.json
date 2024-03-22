@@ -23,5 +23,9 @@
   "devDependencies": {
     "@swc/core": "^1.4.8",
     "tsup": "^8.0.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
