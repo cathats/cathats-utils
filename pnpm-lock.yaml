@@ -12,6 +12,12 @@ importers:
         specifier: ^8.1.2
         version: 8.1.2
 
+  packages/scratch-card:
+    devDependencies:
+      tsup:
+        specifier: ^8.0.2
+        version: 8.0.2(@swc/core@1.4.8)
+
   packages/threejs-kit:
     dependencies:
       lil-gui:

@@ -1,0 +1,39 @@
+{
+  "name": "@cathats/scratch-card",
+  "version": "0.0.1",
+  "description": "刮刮卡",
+  "keywords": [
+    "刮刮卡",
+    "抽奖",
+    "canvas"
+  ],
+  "author": "cathats <liwb97@qq.com>",
+  "license": "ISC",
+  "main": "lib/scratch-card.js",
+  "module": "lib/scratch-card.mjs",
+  "typings": "lib/scratch-card.d.ts",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathats/cathats-utils.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/threejs-kit.test.js",
+    "build": "tsup"
+  },
+  "bugs": {
+    "url": "https://github.com/cathats/cathats-utils/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  }
+}
