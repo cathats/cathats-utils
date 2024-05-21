@@ -1,7 +1,18 @@
-'use strict';
+import InitScene from "./core/InitScene";
 
-function threejsKit(): string {
-  return 'Hello from threejsKitawdawda====== ======1';
+import RendererControl from './gui/controls/RendererControl'
+
+import {
+    CurrentContainer,
+    InitOptions
+} from './@types/base'
+
+export type {
+    CurrentContainer,
+    InitOptions,
 }
 
-export default threejsKit
+export {
+    InitScene,
+    RendererControl
+};

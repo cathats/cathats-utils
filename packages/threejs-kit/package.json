@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
-  "author": "liwb10 <liwb10@asiainfo.com>",
+  "author": "liwb10 <liwb97@qq.com>",
   "license": "ISC",
   "main": "lib/threejs-kit.js",
+  "module": "lib/threejs-kit.mjs",
+  "typings": "lib/threejs-kit.d.ts",
   "directories": {
     "lib": "lib",
     "src": "src",
@@ -20,8 +22,13 @@
     "test": "node ./__tests__/threejs-kit.test.js",
     "build": "tsup"
   },
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "three": "^0.161.0"
+  },
   "devDependencies": {
     "@swc/core": "^1.4.8",
+    "@types/three": "^0.162.0",
     "tsup": "^8.0.2"
   },
   "publishConfig": {
