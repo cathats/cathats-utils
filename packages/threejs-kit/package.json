@@ -1,6 +1,6 @@
 {
   "name": "@cathats/threejs-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "threejs 常用封装",
   "keywords": [
     "threejs",
